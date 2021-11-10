@@ -138,10 +138,10 @@ Baby.prototype.play = function(favoriteToy){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. // 
-  2. 
-  3. 
-  4. 
+  1. // if there is no contextual object that this is pointing to then it points to the global object which is window
+  2. // there can be implicit bindings which just means you look to the left of the .this to see what .this refers to
+  3. // there can be explicit bindings which mean the .this keyword could be using .call, .apply or .bind.
+  4. // if a function is invoked with the new keyword the this keyword belongs to the object the function is creating. 
 */
 
 
